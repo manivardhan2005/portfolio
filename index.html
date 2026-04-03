@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Woonna Mani Vardhan - Computer Science Student, AI & Machine Learning Enthusiast, Web Developer">
+    <title>Woonna Mani Vardhan | Portfolio</title>
+    
+    <!-- Open Graph SEO Tags -->
+    <meta property="og:title" content="Woonna Mani Vardhan | Portfolio">
+    <meta property="og:description" content="Third-Year Computer Science Student at NIT Raipur, Engineer Trainee Intern at Vantiris, and AI Enthusiast.">
+    <meta property="og:type" content="website">
+    
+    <!-- Favicon (Developer Emoji) -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👨‍💻</text></svg>">
+    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Particles.js & Typed.js for dynamic effects -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Particle Background -->
+    <div id="particles-js"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">W<span class="text-neon">M</span>V.</a>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about"><span class="link-number">01.</span> About</a></li>
+                <li><a href="#skills"><span class="link-number">02.</span> Skills</a></li>
+                <li><a href="#experience"><span class="link-number">03.</span> Experience</a></li>
+                <li><a href="#projects"><span class="link-number">04.</span> Projects</a></li>
+                <li><a href="#contact"><span class="link-number">05.</span> Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 1. Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title"><span id="typed-text"></span></h1>
+            <h2 class="hero-subtitle">Third-Year Computer Science Student at NIT Raipur | Software Engineering & AI Enthusiast.</h2>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-glowing">Explore My Universe</a>
+                <a href="resume.pdf" class="btn btn-glowing" style="margin-left: 1.5rem; background: rgba(0, 243, 255, 0.1);" download>Download Resume</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="mouse-wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. About Me Section -->
+    <section id="about" class="section about relative-z">
+        <div class="container reveal">
+            <h2 class="section-title" data-text="About Me">About Me</h2>
+            <div class="about-grid">
+                <div class="about-text-container">
+                    <p class="about-text">
+                        I am a passionate <strong>Computer Science Student</strong> driven by data, algorithms, and full-stack development. I am constantly bridging the gap between theoretical computer science and high-impact real-world applications.
+                    </p>
+                    <p class="about-text">
+                        Whether it's building scalable backends, responsive user interfaces, or integrating complex AI logic into user-facing products—I thrive in environments that challenge me to solve the impossible.
+                    </p>
+                </div>
+                <!-- Highlight Box -->
+                <div class="about-highlight-box">
+                    <div class="box-flare"></div>
+                    <i class="fas fa-code-branch fa-3x highlight-icon"></i>
+                    <h3>Proven Problem-Solver</h3>
+                    <p>Successfully cracked over <span class="text-neon">400+ LeetCode problems</span>, continually sharpening proficiency in core Data Structures and Algorithms.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Skills Section -->
+    <section id="skills" class="section skills relative-z">
+        <div class="container reveal">
+            <h2 class="section-title" data-text="Tech Stack">Tech Stack</h2>
+            
+            <div class="skills-categories">
+                <!-- Core -->
+                <div class="skill-group">
+                    <h3 class="skill-category-title"><i class="fas fa-terminal"></i> Core & Infrastructure</h3>
+                    <div class="chip-container">
+                        <span class="chip">Data Structures & Algorithms</span>
+                        <span class="chip">Python</span>
+                        <span class="chip">C++</span>
+                        <span class="chip">Object-Oriented Programming</span>
+                        <span class="chip">JavaScript</span>
+                        <span class="chip">Linux</span>
+                    </div>
+                </div>
+
+                <!-- Web Dev -->
+                <div class="skill-group">
+                    <h3 class="skill-category-title"><i class="fas fa-globe"></i> Web Development</h3>
+                    <div class="chip-container">
+                        <span class="chip">React.js</span>
+                        <span class="chip">Node.js</span>
+                        <span class="chip">Express.js</span>
+                        <span class="chip">HTML5 / CSS3</span>
+                        <span class="chip">RESTful APIs</span>
+                        <span class="chip">JWT Authentication</span>
+                    </div>
+                </div>
+
+                <!-- Data & AI -->
+                <div class="skill-group">
+                    <h3 class="skill-category-title"><i class="fas fa-brain"></i> Data & AI</h3>
+                    <div class="chip-container">
+                        <span class="chip">Machine Learning</span>
+                        <span class="chip">Artificial Intelligence (LLMs)</span>
+                        <span class="chip">PostgreSQL / SQL</span>
+                        <span class="chip">Puppeteer</span>
+                        <span class="chip">Chrome Extension API</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Experience & Certifications -->
+    <section id="experience" class="section experience relative-z">
+        <div class="container reveal">
+            <h2 class="section-title" data-text="Journey">Journey</h2>
+            
+            <div class="modern-timeline">
+                <!-- Experience 1 -->
+                <div class="timeline-box">
+                    <div class="timeline-date">Mar 2026 – Present</div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Engineer Trainee Intern</h3>
+                        <h4>Vantiris Technologies LLP</h4>
+                        <p>Developed responsive React components and optimized PostgreSQL queries for the DC Water project, reducing load times by 15%. Engineered a high-performance web crawler utilizing Puppeteer and headless browsers to extract 3,000+ JS-rendered pages. Deployed advanced evasion techniques (CAPTCHAs, proxy rotation) yielding 40% faster retrieval.</p>
+                    </div>
+                </div>
+
+                <!-- Achievements -->
+                <div class="timeline-box">
+                    <div class="timeline-date">2021 – Present</div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Pinnacle Achievements</h3>
+                        <h4>NIT Raipur & IIT Madras</h4>
+                        <p>Ranked in the top <strong>1.1 percentile</strong> in the JEE Mains (2021) Exam. Secured a <strong>Top 5 finish</strong> out of 120+ teams at the NIT Raipur Annual Hackathon, prototyping an AI full-stack web application. Earned an NPTEL certification with 91% distinction in Data Science using Python.</p>
+                    </div>
+                </div>
+
+                <!-- Leadership 1 -->
+                <div class="timeline-box">
+                    <div class="timeline-date">Leadership</div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Core Coordinator - Eclectika</h3>
+                        <h4>NIT Raipur</h4>
+                        <p>Directed the marketing campaign across social media, increasing online engagement by 150% and boosting overall brand visibility within the NIT Raipur community.</p>
+                    </div>
+                </div>
+
+                <!-- Leadership 2 -->
+                <div class="timeline-box">
+                    <div class="timeline-date">Leadership</div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Team Lead - Inter NIT</h3>
+                        <h4>Badminton Tournament</h4>
+                        <p>Captained and represented NIT Raipur in the Inter-NIT Badminton Tournament, exhibiting leadership, teamwork, and competitive excellence.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Projects Section -->
+    <section id="projects" class="section projects relative-z">
+        <div class="container reveal">
+            <h2 class="section-title" data-text="Featured Works">Featured Works</h2>
+            
+            <div class="hero-grid">
+                <!-- Project 1 -->
+                <div class="grid-card">
+                    <div class="card-bg card-bg-1"></div>
+                    <div class="card-content">
+                        <div class="card-header">
+                            <i class="fas fa-car-side fa-2x project-icon"></i>
+                            <h3>CarRentalApp</h3>
+                        </div>
+                        <p class="card-desc">Architected a modular full-stack system with 12 secure RESTful APIs leveraging Node.js, Express, and JWT for RBAC. Optimized underlying PostgreSQL queries, pushing average API response time down by 40%.</p>
+                        <div class="card-tags">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>PostgreSQL</span>
+                            <span>JWT</span>
+                        </div>
+                        <div class="card-footer">
+                            <a href="https://carrental-zeta-nine.vercel.app/" target="_blank" class="card-link">Launch App <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="grid-card">
+                    <div class="card-bg card-bg-2"></div>
+                    <div class="card-content">
+                        <div class="card-header">
+                            <i class="fas fa-robot fa-2x project-icon"></i>
+                            <h3>Automated Job Bot</h3>
+                        </div>
+                        <p class="card-desc">Engineered a custom Chrome extension to automate complex data entry across multi-page portals. Integrates Llama 3 LLM structurally parsing user resumes and AI vision models resolving complex visual/CAPTCHA hurdles.</p>
+                        <div class="card-tags">
+                            <span>JavaScript</span>
+                            <span>Python</span>
+                            <span>Chrome Extension</span>
+                            <span>LLM</span>
+                        </div>
+                        <div class="card-footer">
+                            <a href="https://github.com/manivardhan2005/job_bot" target="_blank" class="card-link">View Source <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- 6. Contact Section -->
+    <section id="contact" class="section contact relative-z">
+        <div class="container reveal">
+            <h2 class="section-title" data-text="Let's Connect">Let's Connect</h2>
+            
+            <div class="contact-box">
+                <form action="https://api.web3forms.com/submit" method="POST" class="sleek-form" id="contactForm">
+                    <!-- Replace YOUR_ACCESS_KEY_HERE with your Web3Forms access key -->
+                    <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+                    <div class="input-container">
+                        <input type="text" id="name" name="name" required>
+                        <label for="name">Your Name</label>
+                        <div class="input-line"></div>
+                    </div>
+                    <div class="input-container">
+                        <input type="email" id="email" name="email" required>
+                        <label for="email">Your Email</label>
+                        <div class="input-line"></div>
+                    </div>
+                    <div class="input-container">
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                        <label for="message">Your Message</label>
+                        <div class="input-line"></div>
+                    </div>
+                    <button type="submit" class="btn btn-glowing block-btn">Send Transmission</button>
+                </form>
+
+                <div class="social-panel">
+                    <h3>Direct Links</h3>
+                    <div class="giant-icons">
+                        <a href="https://github.com/manivardhan2005" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/manivardhan-woonna-0412362a5/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <div class="contact-details-text">
+                        <p><i class="fas fa-envelope"></i> manivardhanwoonna@gmail.com</p>
+                        <p><i class="fas fa-phone"></i> +91-8309834564</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="relative-z">
+        <div class="footer-container">
+            <div class="animated-signature">
+                &lt; Woonna Mani Vardhan /&gt;
+            </div>
+            <p>&copy; 2026. Designed for impact.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

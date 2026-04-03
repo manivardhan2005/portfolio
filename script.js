@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (typeof Typed !== 'undefined') {
         const typedText = document.getElementById('typed-text');
         if (typedText) {
-            new Typed('#typed-text', {
+            new Typed(typedText, {
                 strings: [
                     "I am Mani Vardhan Woonna.",
                     "I solve complex problems."

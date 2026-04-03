@@ -25,6 +25,8 @@
     <!-- Particles.js & Typed.js for dynamic effects -->
     <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!-- Vanilla Tilt for 3D interactions -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -81,7 +83,7 @@
                     </p>
                 </div>
                 <!-- Highlight Box -->
-                <div class="about-highlight-box">
+                <div class="about-highlight-box" data-tilt data-tilt-glare data-tilt-max-glare="0.3" data-tilt-max="10" data-tilt-speed="400">
                     <div class="box-flare"></div>
                     <i class="fas fa-code-branch fa-3x highlight-icon"></i>
                     <h3>Proven Problem-Solver</h3>
@@ -199,7 +201,7 @@
             
             <div class="hero-grid">
                 <!-- Project 1 -->
-                <div class="grid-card">
+                <div class="grid-card" data-tilt data-tilt-glare data-tilt-max-glare="0.2" data-tilt-max="5" data-tilt-perspective="1000">
                     <div class="card-bg card-bg-1"></div>
                     <div class="card-content">
                         <div class="card-header">
@@ -220,7 +222,7 @@
                 </div>
 
                 <!-- Project 2 -->
-                <div class="grid-card">
+                <div class="grid-card" data-tilt data-tilt-glare data-tilt-max-glare="0.2" data-tilt-max="5" data-tilt-perspective="1000">
                     <div class="card-bg card-bg-2"></div>
                     <div class="card-content">
                         <div class="card-header">

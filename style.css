@@ -775,6 +775,38 @@ footer {
     to { opacity: 1; transform: translateY(0); }
 }
 
+/* --- Shimmering Text Gradients --- */
+@keyframes shimmerPulse {
+    0% { background-position: 0% 50%; filter: drop-shadow(0 0 10px rgba(0, 243, 255, 0.4)); }
+    50% { background-position: 100% 50%; filter: drop-shadow(0 0 20px rgba(255, 0, 255, 0.7)); }
+    100% { background-position: 0% 50%; filter: drop-shadow(0 0 10px rgba(0, 243, 255, 0.4)); }
+}
+
+.section-title {
+    background-size: 200% auto;
+    animation: shimmerPulse 5s linear infinite;
+}
+
+/* --- Floating Elements --- */
+@keyframes floatY {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-15px); }
+    100% { transform: translateY(0px); }
+}
+
+.about-highlight-box {
+    animation: floatY 6s ease-in-out infinite;
+}
+
+.timeline-marker {
+    animation: pulseMarker 3s infinite alternate;
+}
+
+@keyframes pulseMarker {
+    0% { box-shadow: 0 0 10px var(--neon-cyan); transform: scale(1); }
+    100% { box-shadow: 0 0 20px var(--neon-magenta); transform: scale(1.2); }
+}
+
 /* --- Responsive --- */
 @media (max-width: 992px) {
     .about-grid, .contact-box {
